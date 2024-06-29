@@ -1,0 +1,125 @@
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h2 {
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+header nav ul li {
+    padding: 28px;
+}
+
+header nav ul li.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #476730;
+    border-radius: 30px;
+    height: 54px; /* Adjusted height for better centering */
+    width: 115px; /* Adjusted width for better centering */
+    padding: 10px; /* Adjusted padding for better centering */
+}
+
+header nav ul li.btn a {
+    color: #fff;
+    text-decoration: none; /* Ensuring no underline for links */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure the link takes the full width */
+    height: 100%; /* Ensure the link takes the full height */
+}
+
+header nav ul li.btn img {
+    margin-left: 8px; /* Adjust space between text and image */
+}
+
+header nav ul li.btn a span {
+    display: flex;
+    align-items: center;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Выравниваем элементы по верху */
+    gap: 20px; /* Задаем расстояние между элементами */
+    padding: 20px; /* Отступ внутри контейнера, если необходимо */
+}
+
+.product {
+    display: flex;
+    flex-direction: column; /* Располагаем элементы внутри по вертикали */
+    align-items: center; /* Выравниваем элементы по центру */
+    padding: 10px; /* Внутренние отступы для каждого продукта */
+    border: 1px solid #ddd; /* Пример оформления границы для продукта */
+    border-radius: 8px; /* Скругленные углы */
+}
+
+.product img {
+    max-width: 100%; /* Ограничиваем ширину изображения */
+    height: auto; /* Сохраняем пропорции изображения */
+}
+
+.price {
+    text-align: center; /* Выравниваем текст по центру */
+    margin-top: 10px; /* Отступ сверху для блока цены */
+}
+
+.price h4 {
+    margin: 0; /* Убираем внешние отступы для заголовка */
+}
+
+.price p {
+    margin: 5px 0 0; /* Убираем верхний отступ и задаем отступ снизу */
+}
+
+.hero-shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-shop h1 {
+    font-family: "Newsreader", serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin: 0; /* убираем отступы */
+}
+
+.hero-shop p {
+    font-size: 20px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    margin: 0; /* убираем отступы */
+}
+
+.hero-shop p strong {
+    font-weight: 600;
+}
+
+.hero-shop ul {
+    list-style: none; /* убираем маркеры списка */
+    margin: 0;
+    padding: 0;
+}
